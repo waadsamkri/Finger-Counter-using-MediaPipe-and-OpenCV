@@ -12,21 +12,4 @@ Make sure you have Python installed. Then, install the following libraries:
 ```bash
 pip install mediapipe opencv-python
 
-## 🚀 How to Run
 
-Follow these steps to run the project:
-
-```bash
-# 1. Create and enter project folder
-mkdir finger_count_project
-cd finger_count_project
-
-# 2. Create and edit Python file
-notepad finger_counter.py
-# (Paste the provided code and save)
-
-# 3. Install required libraries
-pip install mediapipe opencv-python
-
-# 4. Run the script
-python finger_counter.py
