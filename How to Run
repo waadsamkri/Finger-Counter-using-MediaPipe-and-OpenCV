@@ -1,9 +1,8 @@
-🚀 How to Run
+## 🚀 How to Run
+
 Follow these steps to run the project:
 
-bash
-Copy
-Edit
+```bash
 # 1. Create and enter project folder
 mkdir finger_count_project
 cd finger_count_project
@@ -17,16 +16,3 @@ pip install mediapipe opencv-python
 
 # 4. Run the script
 python finger_counter.py
-
-
-🟢 The webcam will launch and display:
-
-All detected hands
-
-Hand type: Right (Blue) / Left (Green)
-
-Number of fingers raised per hand
-
-Total number of raised fingers
-
-Count of right and left hands
