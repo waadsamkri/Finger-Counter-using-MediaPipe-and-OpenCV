@@ -11,8 +11,6 @@ cd finger_count_project
 notepad finger_counter.py
 # (Paste the provided code and save)
 
-# 3. Install required libraries
-pip install mediapipe opencv-python
-
-# 4. Run the script
+# 3. Run the script
 python finger_counter.py
+
