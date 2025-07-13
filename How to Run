@@ -1,16 +1,44 @@
+
 ## 🚀 How to Run
 
-Follow these steps to run the project:
-
+### 1. Clone or create a new folder:
 ```bash
-# 1. Create and enter project folder
-mkdir finger_count_project
-cd finger_count_project
+mkdir finger_counter_project
+cd finger_counter_project
+2. Create Python file:
+bash
+Copy
+Edit
+notepad main.py
+# Paste the provided code and save
+3. Install required libraries:
+bash
+Copy
+Edit
+pip install mediapipe opencv-python
+4. Run the script:
+bash
+Copy
+Edit
+python main.py
+🧠 How it Works
+MediaPipe Hands detects 21 landmarks for each hand.
 
-# 2. Create and edit Python file
-notepad finger_counter.py
-# (Paste the provided code and save)
+Handedness (Left or Right) is determined using multi_handedness.
 
-# 3. Run the script
-python finger_counter.py
+Finger status is calculated based on:
 
+Thumb: relative x-position (horizontal movement).
+
+Other fingers: relative y-position compared to the joints.
+
+The landmarks are drawn on the hand.
+
+The finger count per hand and the total are displayed on screen.
+
+🎨 Display Summary
+Green text: Number of fingers for each hand
+
+Red text: Total number of raised fingers
+
+ESC key: Exit the program
