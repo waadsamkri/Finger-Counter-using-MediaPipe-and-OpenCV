@@ -1,15 +1,19 @@
-# 🤚 Finger Counter using MediaPipe and OpenCV
+# 🖐️ Finger Counter using MediaPipe and OpenCV
 
-This project is a real-time **finger counting application** built with **MediaPipe** and **OpenCV**.  
-It detects multiple hands from the webcam feed, determines the handedness (left/right), counts the number of raised fingers per hand, and displays the total results on screen with visual feedback.
+This project uses [MediaPipe](https://google.github.io/mediapipe/) and [OpenCV](https://opencv.org/) to detect hands from a webcam feed and count the number of raised fingers for each hand (left and right), with a live total displayed on screen.
 
 ---
 
-## 📦 Requirements
+## 📸 Features
 
-Make sure you have Python installed. Then, install the following libraries:
+- Detects up to **2 hands** in real-time
+- Identifies **left** and **right** hands
+- Counts raised fingers for each hand
+- Displays:
+  - Individual finger count per hand
+  - Total number of raised fingers
+- Works with **webcam**
+- Exit program by pressing the **ESC** key
 
-```bash
-pip install mediapipe opencv-python
-
+---
 
